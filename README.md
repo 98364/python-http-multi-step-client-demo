@@ -17,7 +17,7 @@
 
 1. `start_task(user_id)`  
    - 向服务端发起“开始任务”请求  
-   - 返回一个 `taskId`（类似你真实系统里的 `runningRecordId`）
+   - 返回一个 `taskId`
 
 2. `save_task_progress(user_id, task_id)`  
    - 模拟上报一次任务进度，例如：当前进度、用时等
