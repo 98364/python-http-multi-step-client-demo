@@ -46,14 +46,23 @@
 你会在终端看到类似这样的输出（示例）：
 
 `[start] HTTP 状态码: 200`
+
 `[start] 原始返回: {"status": "success", "data": {"taskId": "xxxx"}}`
+
 `[start] 解析到 taskId: xxxx`
+
 `[save] HTTP 状态码: 200`
+
 `[save] 返回内容: {...}`
+
 `[finish] HTTP 状态码: 200`
+
 `[finish] 响应 JSON: { ... }`
+
 `[select] HTTP 状态码: 200`
+
 `[select] 响应原始内容: {...}`
+
 
 注意事项 & 免责声明
 本项目只演示「如何写 HTTP 客户端代码」，不附带任何真实线上服务。
