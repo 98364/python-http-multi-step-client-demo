@@ -39,10 +39,15 @@
 
 使用方法
 1.在 client.py 中设置你的 BASE_URL 和 USER_ID：
+
 `BASE_URL = "https://example.com/api"  # 改成你自己的接口地址`
+
 `USER_ID = "your_user_id_here"`
+
 2.运行脚本
+
 `python client.py`
+
 你会在终端看到类似这样的输出（示例）：
 
 `[start] HTTP 状态码: 200`
